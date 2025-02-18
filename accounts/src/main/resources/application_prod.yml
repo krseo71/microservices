@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs"
+  contactDetails:
+    name: "krseo"
+    email: "krseo.dev@gmail.com"
+  onCallSupport:
+    - (02) 333-3333
+    - 010-3333-3333

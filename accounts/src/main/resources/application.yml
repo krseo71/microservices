@@ -16,5 +16,22 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
 
+build:
+  version: "3.0"
 
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs"
+  contactDetails:
+    name: "krseo"
+    email: "krseo.dev@gmail.com"
+  onCallSupport:
+    - (02) 111-1111
+    - 010-1111-1111
