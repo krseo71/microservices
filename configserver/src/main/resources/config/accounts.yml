@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs"
+  contactDetails:
+    name: "krseo"
+    email: "krseo.dev@gmail.com"
+  onCallSupport:
+    - (02) 111-1111
+    - 010-1111-1111
